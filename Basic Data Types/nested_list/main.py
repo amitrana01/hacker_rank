@@ -6,8 +6,6 @@ if __name__ == '__main__':
         student = [name, score]
         python_students.append(student)
 
-
-
 i = 0
 scores = []
 
