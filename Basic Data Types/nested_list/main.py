@@ -20,6 +20,12 @@ score_second = [x for x in scores if x > min(scores)]
 
 ss = min(score_second)
 
+result = []
 for student in python_students:
     if ss in student:
-        print(student)
+        result.append(student[0])
+
+result = sorted(result)
+for name in result:
+    print(name)
+
